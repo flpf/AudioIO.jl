@@ -22,7 +22,7 @@ const paInt8    = convert(PaSampleFormat, 0x10)
 const paUInt8   = convert(PaSampleFormat, 0x20)
 
 # PaHostApiTypeId values
-const pa_host_api_names = {
+@compat const pa_host_api_names = {
     0 => "In Development", # use while developing support for a new host API
     1 => "Direct Sound",
     2 => "MME",
